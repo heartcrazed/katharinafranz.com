@@ -101,8 +101,7 @@ div#header {
 	background: linear-gradient(to bottom,  rgba(232,206,196,0.3) 0%,rgba(232,206,196,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4de8cec4', endColorstr='#e8cec4',GradientType=0 ); /* IE6-8 */
 
-	padding: 50px;
-	padding-bottom: 145px;
+	padding: 70px 0 145px 0;
 }
 
 div#inhalt {
