@@ -28,13 +28,14 @@
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="css/style.css" />
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="google-site-verification" content="_iwf-b9mPxgWqbRBiUdR-aeP3R9zOM4F4g7Vs-swWA4" />
 </head>
 
 <body>
 	
 	<div id="inhalt">
 		<h1><a href="./">katharinafranz.com</a></h1>
-		<h2 class="rechts"><a href="http://kattitu.de">*Blog</a></h2>
+		<h2 class="rechts"><a href="http://blog.katharinafranz.com">*Blog</a></h2>
 		<h2 class="links"><a href="http://500px.com/heartcrazed">*Fotos</a></h2>
 		<h2 class="rechts"><a href="http://heartcrazed.tumblr.com">*Tumblr</a></h2>
 
@@ -52,7 +53,7 @@
 			<tr>
 				<td class="links"><p><span class="zeile">Adresse</span></p></td>
 				<td class="rechts">
-					<p><a href="http://bit.ly/lxtoKz" title="Link zu Google Maps"><span class="zeile">Unterwittbacher Str. 21</span><br /><span class="zeile">97892 Kreuzwertheim</span></a></p>
+					<p><a href="http://goo.gl/maps/HbtlT" title="Link zu Google Maps"><span class="zeile">Frankfurter Straße 4&ndash;6</span><br /><span class="zeile">63303 Dreieich-Sprendlingen</span></a></p>
 					<p>&nbsp;</p></td>
 			</tr>
 			<tr>
@@ -60,7 +61,15 @@
 				<td class="rechts">
 					<p><span class="zeile">Webdesign</span>
 					<span class="zeile">Fotografie</span>
-					<span class="zeile">Typografie</span></p>
+					<span class="zeile">Typografie</span>
+					<span class="zeile">Design</span>
+					<span class="zeile">Gestaltung</span>
+					<span class="zeile">Internet</span>
+					<span class="zeile">Social Media</span>
+					<span class="zeile">Backen</span>
+					<span class="zeile">Technik</span>
+					<span class="zeile">…</span>
+					</p>
 				</td>
 			</tr>
 			<tr>
@@ -71,14 +80,18 @@
 					<span class="zeile">Wordpress</span>
 					<span class="zeile">Adobe Photoshop</span>
 					<span class="zeile">Adobe InDesign</span>
-					<span class="zeile">Adobe Illustrator</span></p>
+					<span class="zeile">Adobe Illustrator</span>
+					<span class="zeile">Eclipse</span></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="links"><p><span class="zeile">Projekte</span></p></td>
 				<td class="rechts">
+					<p><span class="zeile"><a href="http://onlinewerk.info">onlinewerk.info</a> (01/2011)</span></p>
 					<p><span class="zeile"><del><a href="http://maedchendinge.de">mædchendinge.de</a> (02/2011)</del></span></p>
 					<p><span class="zeile"><a href="http://typofails.tumblr.com">typofails.tumblr.com</a> (04/2011)</span></p>
+					<p><span class="zeile"><a href="http://stadtlandfluss-geschichten.de">stadtlandfluss-geschichten.de</a> (07/2012)</span></p>
+					<p><span class="zeile"><a href="http://kalorienhauptquartier.tumblr.com/">kalorienhauptquartier.tumblr.com</a> (01/2013)</span></p>
 				</td>
 			</tr>
 			<tr>
@@ -88,7 +101,19 @@
 				<td class="rechts">
 					<p><a href="http://dhbw-mosbach.de/on"><span class="zeile">Duale Hochschule Baden-W&uuml;rttemberg Mosbach</span><br />
 					<span class="zeile">Studiengang Onlinemedien</span></a></p>
-					<p><span class="zeile">Angestrebter Abschluss: Bachelor of Arts</span></p>
+					<p><span class="zeile">Abschluss: Bachelor of Arts</span></p>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="links">
+					<p><span class="zeile">Jobs</span></p>
+					<p><span class="zeile">2009&mdash;2013</span></p></td>
+				<td class="rechts">
+					<p>&nbsp;</p>
+					<p><a href="http://sit.fraunhofer.de"><span class="zeile">Fraunhofer-Institut für</span><br />
+					<span class="zeile">Sichere Informationstechnologie SIT</span></a><br />
+					<span class="zeile">Informations- & Marketingmanagement</span></p>
 					<p>&nbsp;</p>
 				</td>
 			</tr>
@@ -107,7 +132,7 @@
 			</tr>
 		</table>
 		
-		<p id="footer"><a href="http://www.kattitu.de/impressum/">Impressum</a></p>
+		<p id="footer"><a href="http://blog.katharinafranz.com/impressum">Impressum</a></p>
 	</div>
 
 <!-- GOOGLE ANALYTICS -->
@@ -115,6 +140,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-11098363-7']);
+  _gaq.push(['_setDomainName', 'katharinafranz.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
