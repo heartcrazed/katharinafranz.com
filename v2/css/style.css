@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+html, body { 
+	padding: 0;
+	margin: 0;
+	font-family: "Ubuntu", "Helvetica", sans-serif;
+}
+
+a:link, a:active, a:visited {
+	text-decoration: none;
+	color: rgb(178,92,59);
+	font-weight: 600;
+}
+
+a:hover {
+	color: rgb(204,144,107);
+}
+
+p, ul {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+strong {
+	font-weight: 600;
+}
+
+#inhalt {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+div.center {
+	text-align: center;
+}
+
+div.right {
+	text-align: right;
+}
+
+div#social {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img#portrait {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0;
+}
+
+/* --- Überschriften --- */
+h1 {
+	font-size: 60px;
+	margin: 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black !important;
+	background-color: white;
+	padding: 4px 10px 4px 10px;
+	font-weight: 400 !important;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 0 27px;
+	display: inline;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h2 a {
+	text-decoration: none;
+	font-weight: 300 !important;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 50px 0 0 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+/* --- Sonstiges --- */
+
+span.ornament {
+	font-size: 25px;
+	position: relative;
+	top: 4px;
+}
+
+img {
+	border: none;
+	margin: 0 2px;
+}
+
+/* --- Footer --- */
+
+div#footer {
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	margin-top: 25px;
+}

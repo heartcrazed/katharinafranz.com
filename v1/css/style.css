@@ -1,0 +1,162 @@
+html, body { 
+	background-image:url('../img/wood.jpg');
+	background-attachment: fixed;
+}
+
+#inhalt {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+a:link, a:active, a:visited, a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	-moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    font-family: "Courier", "Courier New", sans-serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+	display: inline;
+	float: left;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 4px 10px 4px 10px;
+}
+
+h1 a:hover {
+	color: white;
+	background-color: black;
+}
+
+h2.rechts {
+	-moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+    font-family: "Courier", "Courier New", sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	display: inline;
+}
+
+h2.links {
+	-moz-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    font-family: "Courier", "Courier New", sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	display: inline;
+	position: relative;
+	top: 5px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 4px 10px 4px 10px;
+}
+
+h2 a:hover {
+	color: black;
+	background-color: white;
+}
+
+table tr td.links, table tr td.rechts {
+	padding: 10px;
+	margin: 0;
+	line-height:1.5em;
+	vertical-align: top;
+}
+
+table tr td.links p, table tr td.rechts p {
+	padding: 0;
+	margin: 0;
+}
+
+table tr td.links {
+	width:200px;
+	text-align: right;
+}
+
+table tr:nth-child(odd) td.links {
+	-moz-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+table tr:nth-child(even) td.links {
+	-moz-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+}
+
+table tr td.rechts {
+	width:500px;
+	text-align: left;
+}
+
+/* Aussehen der Zeilen */
+
+table tr td.links p span.zeile, table tr td.rechts p span.zeile {
+	font-family: "Courier", "Courier New", sans-serif;
+	font-size: 13px;
+	padding: 2px 5px 2px 5px;
+}
+
+table tr td.links p span.zeile abbr, table tr td.rechts p span.zeile abbr, table tr td.links p span.zeile acronym, table tr td.rechts p span.zeile acronym {
+	border:none;
+}
+
+table tr td.links p span.zeile {
+	background-color: black;
+	color: white;
+	letter-spacing: 2px;
+}
+
+table tr td.rechts p span.zeile {
+	background-color: white;
+	color: black;
+}
+
+/* Links in der rechten Spalte */
+
+table tr td.rechts p a span.zeile, table tr td.rechts p span.zeile a {
+	color: #53795B;
+	text-decoration: none;
+}
+
+table tr td.rechts p a:hover span.zeile, table tr td.rechts p span.zeile a:hover  {
+	color: #CFCDCE;
+	text-decoration: none;
+}
+
+/* Footer */
+
+p#footer {
+	text-align: center;
+	font-family: "Courier", "Courier New", sans-serif;
+	font-size: 12px;
+	color: black;
+	margin-top: 50px;
+}
+
+p#footer a {
+	color: black;
+}
