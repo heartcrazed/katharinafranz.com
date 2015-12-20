@@ -38,14 +38,14 @@
 			<div class="title">
 				<img id="portrait" src="img/katharina.jpg" alt="Portrait of Katharina Franz" />
 				<h1>Katharina Franz</h1>
-				<p class="subline">mostly designer, sometimes developer.</p>
+				<p class="subline">designer <span id="this-is-only-temporary" style="font-family: 'Bell MT'; font-style: italic; color: #cf704a;">&amp;</span> developer.</p>
 			</div>
 			<article class="content">
 				<div>
-					<p><strong>Hello there!</strong> Right now I’m 24 years old, living in Egelsbach, Germany. I’ve gained a bachelor’s degree in Online Media at <a href="http://www.dhbw-msobach.de/on" target="_blank">DHBW Mosbach</a> and do now work as a web developer in Frankfurt am Main.</p>
+					<p><strong>Hi there!</strong> Right now I’m <?php function alter($datum){ $geburtstag = new DateTime($datum); $heute = new DateTime(date('Y-m-d')); $differenz = $geburtstag->diff($heute); return $differenz->format('%y');} print(alter('1989-11-01')); ?> years old, living in Egelsbach, Germany. I’ve gained a bachelor’s degree in Online Media at <a href="http://www.dhbw-msobach.de/on" target="_blank">DHBW Mosbach</a> and do now work as a web developer in Frankfurt am Main.</p>
 					
 					<p>I love to create and build websites which make the user feel happy and invites him or her to share it with it’s friends and/or collegues.</p>
-					<p>For me, creating a whole web experience does not only mean pushing around pixels in Photoshop (although I love to do that!), but also making a concept first, be careful about the usability and – of course – developing the frontend of a site, which means coding HTML 5, CSS 3, some JQuery (at least I try), and working with a content management system like Typo3 or Wordpress. Those are all parts of my every-day work.</p>
+					<p>For me, creating a whole web experience does not only mean pushing around pixels in Photoshop (although I love to do that!), but also making a concept first, be careful about the usability and – of course – developing the frontend of a site, which means coding HTML 5, CSS 3, some JQuery (at least I try), and working with a content management system like TYPO3, Wordpress, Ghost or others. Those are all parts of my every-day work.</p>
 					<p>Despite that’s not my focus, I’m interested in the scripting or backend area with components like JavaScript, PHP, MySQL etc., because I am always willing to learn new things and improve my web design skills with everything that touches the topic.</p>
 				</div>
 			</article>
